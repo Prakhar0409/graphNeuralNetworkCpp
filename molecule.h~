@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+#include "params.h"
+
+
+using namespace std;
+
+class Node{
+public:
+	vector<double> state;	// node State
+	vector<double> label;	// node labels
+	vector<double> charges;	// node targets
+	Node(vd &st, vd &lab, vector<double> &targets);
+};
+
+class Molecule{
+public:
+	int numAtoms;
+	vector<Node> atoms;		//atomic numbers=node Labels
+	vvd edgeLabels;	//distances -> 100 if disconnected
+
+	Molecule(int num,vvd nodeLabels,vvd targets,vvd edgeLabels);
+};

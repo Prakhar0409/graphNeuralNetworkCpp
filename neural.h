@@ -4,6 +4,11 @@
 
 using namespace std;
 
+typedef vector<int> vi;
+typedef vector<vi> vvi;
+typedef vector<double> vd;
+typedef vector<vd> vvd;
+
 class Neuron{
   public:
 	int numInps;
@@ -23,7 +28,7 @@ class NeuronLayer{
 
 	//constructor
 	NeuronLayer(int numN, int inpsPerN);
-}
+};
 
 /*
 *	NEURAL NET
@@ -39,9 +44,11 @@ class NeuralNet{
 
 	// Contructor
 	NeuralNet(int numInp,int numOut, int numHiddenLayer,vector<int> neuronsInHiddenLayer);
-
+	vd ForwardOne(vd &inputs);
+	vvd ForwardMany(vvd &inputs);
+	double Sigmoid(double netInp);
 	
-}
+};
 
 
 

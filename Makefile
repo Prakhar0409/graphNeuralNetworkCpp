@@ -1,2 +1,2 @@
 all:
-	g++ neural.cpp -o neuralNet
+	g++ neural.cpp molecule.cpp learn.cpp -o learn
