@@ -53,10 +53,10 @@ vector<double> NeuralNet::ForwardOne(vd &inputs){
 
 	//check if correct number of inputs
 	if(inputs.size() != numInps){
-		cout<<"Incorrect number of inputs"<<endl;
+		cout<<"Incorrect number of inputs. Expected: "<<numInps<<". Given: "<<inputs.size()<<endl;
 		return outputs;	
 	}
-	cout<<"Num Layers:"<<neuronLayers.size()<<endl;
+
 	//for each layer
 	f(i,0,numHiddenLayers+1){		
 //#			cout<<"layer number:"<<i<<endl;
@@ -84,9 +84,11 @@ vector<double> NeuralNet::ForwardOne(vd &inputs){
 
 vvd NeuralNet::ForwardMany(vvd &inputs){
 	vvd outs;
+//	cout<<"inputs[0].size():"<<inputs[0].size()<<endl;
 	f(i,0,inputs.size()){
 		outs.push_back(ForwardOne(inputs[i]));
 	}
+	cout<<"DONE BABES:"<<outs[0].size()<<endl;
 	return outs;
 } 
 

@@ -53,7 +53,7 @@ vector<double> NeuralNet::ForwardOne(vd &inputs){
 
 	//check if correct number of inputs
 	if(inputs.size() != numInps){
-		cout<<"Incorrect number of inputs"<<endl;
+		cout<<"Incorrect number of inputs. Expected: "<<numInps<<". Given: "<<inputs.size()<<endl;
 		return outputs;	
 	}
 

@@ -8,6 +8,7 @@ typedef vector<int> vi;
 typedef vector<vi> vvi;
 typedef vector<double> vd;
 typedef vector<vd> vvd;
+typedef vector<vvd> v3d;
 
 
 class Node{
@@ -25,10 +26,10 @@ class Molecule{
 public:
 	int numAtoms;
 	vector<Node> atoms;		//atomic numbers=node Labels
-	vvd edgeLabels;	//distances -> 100 if disconnected
+	v3d edgeLabels;	//distances -> 100 if disconnected
 
 	//constructor
-	Molecule(int num,vvd nodeLabels,vvd targets,vvd edgeLabels);
+	Molecule(int num,vvd nodeLabels,vvd targets,v3d edgeLabels);
 	void Print();
 	
 };

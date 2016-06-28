@@ -33,7 +33,7 @@ void Node::Print(int i){
 }
 
 // constructor for molecukle -> a graph
-Molecule::Molecule(int num,vvd nodeLabels,vvd targets,vvd edgeLabs){
+Molecule::Molecule(int num,vvd nodeLabels,vvd targets,v3d edgeLabs){
 	numAtoms = num;
 	vd state_init (STATEDIM,0);
 	f(i,0,numAtoms){
@@ -49,7 +49,10 @@ void Molecule::Print(){
 	}
 	f(i,0,edgeLabels.size()){
 		f(j,0,edgeLabels[i].size()){
-			cout<<edgeLabels[i][j]<<" ";
+			f(k,0,edgeLabels[i][j].size()){
+				cout<<edgeLabels[i][j][k]<<" ";
+			}
+			cout<<" ";
 		}
 		cout<<endl;
 	}
@@ -66,12 +69,14 @@ int main(){
 	vvd targets (2, (vd (1,0)));
 //	targets.push_back(vd (1,0)); targets.push_back(vd (1,0));
 	cout<<"node Labels and targets added!"<<endl;
-	vvd edgeLabs (2,(vd (2,0)));
+	v3d edgeLabs (2,(vvd (2,(vd (1,0)))));
 
 	f(i,0,2){
 		f(j,0,2){
-			if(i==j)edgeLabs[i][j] = 0;
-			else edgeLabs[i][j] = 0.28;
+			f(k,0,1){
+				if(i==j)edgeLabs[i][j][k] = 0;
+				else edgeLabs[i][j][k] = 0.28;
+			}
 		}
 	}
 	molecules.push_back(Molecule(2,nodeLabels,targets,edgeLabs));
