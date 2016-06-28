@@ -4,6 +4,7 @@
 #include "molecule.h"
 
 using namespace std;
+
 //Global vars
 NeuralNet forwardStateNN;
 vector<Molecule> molecules;
@@ -28,26 +29,31 @@ void forwardStateCompute(vector<Molecule> &molecules){
 		}
 
 		f(j,0,FORWARDSTATEITER){		
-			outs = forwadStateNN.ForwardMany(inps);
+			outs = forwardStateNN.ForwardMany(inps);
 			inps = outs;
 			f(k,0,outs.size()){
-				inps[k].insert(inps.end(),labels[k].begin(),labels[k].end());
+				inps[k].insert(inps[k].end(),labels[k].begin(),labels[k].end());
 			}		
-			cout<<"reached out states with size:"<<outs.size()<<endl;
+			cout<<"states in "<<j<<"th iteration: "<<endl;//<<outs.size()<<endl;
+			f(k,0,outs.size()){
+				f(l,0,outs[k].size()){
+					cout<<outs[k][l]<<" ";
+				}
+				cout<<endl;
+			}
+
 		}
 
 	}
 }
 
-int main(){
-	vvd nodeLabels;
-	nodeLabels.push_back(vd (1,1));
-	nodeLabels.push_back(vd (1,1));
-	vvd targets;
-	targets.push_back(vd (1,0));	
-	targets.push_back(vd (1,0));
 
-	vvd edgeLabs;
+
+int main(){
+	// adding temporary molecules 
+	vvd nodeLabels (2,(vd (1,1)));
+	vvd targets (2, (vd (1,0)));
+	vvd edgeLabs (2,(vd (2,0)));
 	f(i,0,2){
 		f(j,0,2){
 			if(i==j)edgeLabs[i][j] = 0;
@@ -55,11 +61,10 @@ int main(){
 		}
 	}
 	molecules.push_back(Molecule(2,nodeLabels,targets,edgeLabs));
-
-//NeuralNet(int numInp,int numOut, int numHiddenLayer,vector<int> neuronsInHiddenLayer)
+	
+	//initialize neural network
 	vector<int> nuInHL (FORWARDHL,FORWARDHLNEURONS);
 	forwardStateNN = NeuralNet(STATEDIM+NODELABELDIM,STATEDIM,FORWARDHL,nuInHL);
-
 	forwardStateCompute(molecules);
 
 	return 0;

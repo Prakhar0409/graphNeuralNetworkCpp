@@ -19,6 +19,10 @@ NeuronLayer::NeuronLayer(int numN,int inpsPerN){
 	}
 }
 
+NeuralNet::NeuralNet(){
+
+}
+
 //Constructor for Neural Net
 NeuralNet::NeuralNet(int numInp,int numOut, int numHiddenLayer,vector<int> neuronsInHiddenLayer){
 	numInps = numInp;
@@ -52,7 +56,7 @@ vector<double> NeuralNet::ForwardOne(vd &inputs){
 		cout<<"Incorrect number of inputs"<<endl;
 		return outputs;	
 	}
-	cout<<"Num Layers:"<<neuronLayers.size()<<endl;
+
 	//for each layer
 	f(i,0,numHiddenLayers+1){		
 //#			cout<<"layer number:"<<i<<endl;
@@ -90,6 +94,7 @@ double NeuralNet::Sigmoid(double netInp){
 	return (1/(1+exp(-netInp)));
 }
 
+
 /*
 int main(){
 	vector<int> neuronsInHL;
@@ -100,12 +105,12 @@ int main(){
 		inps.push_back((float)(rand())/(float)(RAND_MAX));
 	}
 	vector<double> outs;
-	outs=n.Forward(inps);
+	outs=n.ForwardOne(inps);
 	cout<<"size of output vector:"<<outs.size()<<endl;
 	f(i,0,outs.size()){
 		cout<<outs[i]<<endl;	
 	}	
-	cout<<"NeuronCreated"<<endl;
+	//cout<<"NeuronCreated"<<endl;
 	return 0;
 }
 */

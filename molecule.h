@@ -15,7 +15,10 @@ public:
 	vector<double> state;	// node State
 	vector<double> label;	// node labels
 	vector<double> charges;	// node targets
+	
+	//constructor
 	Node(vd &st, vd &lab, vector<double> &targets);
+	void Print(int i);
 };
 
 class Molecule{
@@ -24,5 +27,8 @@ public:
 	vector<Node> atoms;		//atomic numbers=node Labels
 	vvd edgeLabels;	//distances -> 100 if disconnected
 
+	//constructor
 	Molecule(int num,vvd nodeLabels,vvd targets,vvd edgeLabels);
+	void Print();
+	
 };

@@ -43,6 +43,7 @@ class NeuralNet{
 	vector<NeuronLayer> neuronLayers;
 
 	// Contructor
+	NeuralNet();
 	NeuralNet(int numInp,int numOut, int numHiddenLayer,vector<int> neuronsInHiddenLayer);
 	vd ForwardOne(vd &inputs);
 	vvd ForwardMany(vvd &inputs);

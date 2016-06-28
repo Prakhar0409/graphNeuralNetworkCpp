@@ -1,12 +1,13 @@
 //header file for basic neural network classes
 #include <bits/stdc++.h>
 #define f(i,a,b) for(int i=a;i<b;i++)
+
+using namespace std;
+
 typedef vector<int> vi;
 typedef vector<vi> vvi;
 typedef vector<double> vd;
 typedef vector<vd> vvd;
-
-using namespace std;
 
 class Neuron{
   public:
@@ -42,6 +43,7 @@ class NeuralNet{
 	vector<NeuronLayer> neuronLayers;
 
 	// Contructor
+	NeuralNet()
 	NeuralNet(int numInp,int numOut, int numHiddenLayer,vector<int> neuronsInHiddenLayer);
 	vd ForwardOne(vd &inputs);
 	vvd ForwardMany(vvd &inputs);
