@@ -26,5 +26,6 @@ Feel free to fork the repo and send pull requests in order to improve it.
 
 ##License
 
-MIT License
+MIT License.  
+
 Please see LICENSE file for more details
