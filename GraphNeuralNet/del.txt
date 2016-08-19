@@ -1,0 +1,127 @@
+Num of atoms: 25
+Node Label of 0th atom: 17.00
+State of 0th atom: 0.00 0.00 0.00 0.00 
+Target label of 0th atom: -0.37 
+Output charges of 0th atom: 0.00 
+Node Label of 1th atom: 8.00
+State of 1th atom: 0.00 0.00 0.00 0.00 
+Target label of 1th atom: 0.30 
+Output charges of 1th atom: 0.00 
+Node Label of 2th atom: 6.00
+State of 2th atom: 0.00 0.00 0.00 0.00 
+Target label of 2th atom: -0.11 
+Output charges of 2th atom: 0.00 
+Node Label of 3th atom: 6.00
+State of 3th atom: 0.00 0.00 0.00 0.00 
+Target label of 3th atom: 0.17 
+Output charges of 3th atom: 0.00 
+Node Label of 4th atom: 6.00
+State of 4th atom: 0.00 0.00 0.00 0.00 
+Target label of 4th atom: -0.14 
+Output charges of 4th atom: 0.00 
+Node Label of 5th atom: 7.00
+State of 5th atom: 0.00 0.00 0.00 0.00 
+Target label of 5th atom: -0.16 
+Output charges of 5th atom: 0.00 
+Node Label of 6th atom: 6.00
+State of 6th atom: 0.00 0.00 0.00 0.00 
+Target label of 6th atom: -0.23 
+Output charges of 6th atom: 0.00 
+Node Label of 7th atom: 6.00
+State of 7th atom: 0.00 0.00 0.00 0.00 
+Target label of 7th atom: 0.09 
+Output charges of 7th atom: 0.00 
+Node Label of 8th atom: 6.00
+State of 8th atom: 0.00 0.00 0.00 0.00 
+Target label of 8th atom: -0.09 
+Output charges of 8th atom: 0.00 
+Node Label of 9th atom: 6.00
+State of 9th atom: 0.00 0.00 0.00 0.00 
+Target label of 9th atom: -0.33 
+Output charges of 9th atom: 0.00 
+Node Label of 10th atom: 6.00
+State of 10th atom: 0.00 0.00 0.00 0.00 
+Target label of 10th atom: 0.08 
+Output charges of 10th atom: 0.00 
+Node Label of 11th atom: 7.00
+State of 11th atom: 0.00 0.00 0.00 0.00 
+Target label of 11th atom: -0.08 
+Output charges of 11th atom: 0.00 
+Node Label of 12th atom: 1.00
+State of 12th atom: 0.00 0.00 0.00 0.00 
+Target label of 12th atom: 0.14 
+Output charges of 12th atom: 0.00 
+Node Label of 13th atom: 1.00
+State of 13th atom: 0.00 0.00 0.00 0.00 
+Target label of 13th atom: -0.23 
+Output charges of 13th atom: 0.00 
+Node Label of 14th atom: 1.00
+State of 14th atom: 0.00 0.00 0.00 0.00 
+Target label of 14th atom: 0.07 
+Output charges of 14th atom: 0.00 
+Node Label of 15th atom: 1.00
+State of 15th atom: 0.00 0.00 0.00 0.00 
+Target label of 15th atom: 0.12 
+Output charges of 15th atom: 0.00 
+Node Label of 16th atom: 1.00
+State of 16th atom: 0.00 0.00 0.00 0.00 
+Target label of 16th atom: 0.18 
+Output charges of 16th atom: 0.00 
+Node Label of 17th atom: 1.00
+State of 17th atom: 0.00 0.00 0.00 0.00 
+Target label of 17th atom: 0.24 
+Output charges of 17th atom: 0.00 
+Node Label of 18th atom: 1.00
+State of 18th atom: 0.00 0.00 0.00 0.00 
+Target label of 18th atom: -0.11 
+Output charges of 18th atom: 0.00 
+Node Label of 19th atom: 1.00
+State of 19th atom: 0.00 0.00 0.00 0.00 
+Target label of 19th atom: -0.07 
+Output charges of 19th atom: 0.00 
+Node Label of 20th atom: 1.00
+State of 20th atom: 0.00 0.00 0.00 0.00 
+Target label of 20th atom: 0.05 
+Output charges of 20th atom: 0.00 
+Node Label of 21th atom: 1.00
+State of 21th atom: 0.00 0.00 0.00 0.00 
+Target label of 21th atom: 0.09 
+Output charges of 21th atom: 0.00 
+Node Label of 22th atom: 1.00
+State of 22th atom: 0.00 0.00 0.00 0.00 
+Target label of 22th atom: 0.23 
+Output charges of 22th atom: 0.00 
+Node Label of 23th atom: 1.00
+State of 23th atom: 0.00 0.00 0.00 0.00 
+Target label of 23th atom: 0.02 
+Output charges of 23th atom: 0.00 
+Node Label of 24th atom: 1.00
+State of 24th atom: 0.00 0.00 0.00 0.00 
+Target label of 24th atom: 0.13 
+Output charges of 24th atom: 0.00 
+0.00 23.33 15.74 17.03 14.88 16.43 14.80 16.17 19.05 17.48 14.95 18.83 6.35 2.66 2.45 1.95 2.38 2.27 2.85 2.53 3.28 2.60 3.61 2.15 2.47 
+23.33 0.00 64.58 16.12 13.48 19.23 11.99 8.65 12.60 13.34 15.41 46.70 1.88 2.69 1.99 1.61 1.80 1.52 1.47 1.36 2.17 1.58 1.76 3.21 3.40 
+15.74 64.58 0.00 11.41 10.59 17.18 9.58 6.54 9.37 10.12 12.88 51.09 1.27 1.95 1.51 1.34 1.42 1.20 1.10 1.03 1.60 1.20 1.26 3.32 2.82 
+17.03 16.12 11.41 0.00 18.24 12.59 10.01 6.70 7.42 6.79 7.27 14.60 1.46 13.96 3.57 1.21 1.88 1.02 1.20 0.85 1.41 0.92 0.98 1.31 1.17 
+14.88 13.48 10.59 18.24 0.00 20.28 18.87 8.81 8.74 7.71 8.67 15.25 1.36 3.07 6.54 1.91 4.54 1.36 1.58 0.99 1.73 1.07 1.02 1.44 1.19 
+16.43 19.23 17.18 12.59 20.28 0.00 25.73 10.88 13.31 12.80 17.98 28.51 1.45 2.15 2.36 3.37 3.11 2.17 1.80 1.43 2.45 1.65 1.43 2.92 2.04 
+14.80 11.99 9.58 10.01 18.87 25.73 0.00 14.43 12.80 10.47 11.80 14.29 1.41 1.64 2.20 3.12 5.28 2.36 2.45 1.37 2.65 1.50 1.25 1.52 1.30 
+16.17 8.65 6.54 6.70 8.81 10.88 14.43 0.00 15.05 10.64 9.24 8.89 1.57 1.07 1.28 1.64 1.93 2.92 9.34 2.03 2.97 1.92 1.50 1.05 1.05 
+19.05 12.60 9.37 7.42 8.74 13.31 12.80 15.05 0.00 32.19 17.31 12.98 1.91 1.19 1.23 1.51 1.58 2.61 2.31 2.66 7.62 3.44 2.99 1.46 1.68 
+17.48 13.34 10.12 6.79 7.71 12.80 10.47 10.64 32.19 0.00 25.53 13.49 1.53 1.10 1.10 1.42 1.34 2.26 1.64 2.57 3.31 4.03 3.28 1.70 2.20 
+14.95 15.41 12.88 7.27 8.67 17.98 11.80 9.24 17.31 25.53 0.00 17.80 1.26 1.20 1.20 1.78 1.46 2.23 1.44 1.81 2.45 2.45 1.87 2.65 2.92 
+18.83 46.70 51.09 14.60 15.25 28.51 14.29 8.89 12.98 13.49 17.80 0.00 1.62 2.47 2.05 1.85 2.02 1.63 1.50 1.33 2.29 1.56 1.58 3.66 2.95 
+6.35 1.88 1.27 1.46 1.36 1.45 1.41 1.57 1.91 1.53 1.26 1.62 0.00 0.22 0.22 0.16 0.22 0.20 0.29 0.21 0.37 0.22 0.29 0.17 0.19 
+2.66 2.69 1.95 13.96 3.07 2.15 1.64 1.07 1.19 1.10 1.20 2.47 0.22 0.00 0.60 0.20 0.31 0.17 0.19 0.14 0.22 0.15 0.16 0.22 0.20 
+2.45 1.99 1.51 3.57 6.54 2.36 2.20 1.28 1.23 1.10 1.20 2.05 0.22 0.60 0.00 0.25 0.52 0.19 0.23 0.15 0.24 0.16 0.15 0.20 0.17 
+1.95 1.61 1.34 1.21 1.91 3.37 3.12 1.64 1.51 1.42 1.78 1.85 0.16 0.20 0.25 0.00 0.41 0.38 0.26 0.20 0.27 0.22 0.17 0.26 0.20 
+2.38 1.80 1.42 1.88 4.54 3.11 5.28 1.93 1.58 1.34 1.46 2.02 0.22 0.31 0.52 0.41 0.00 0.28 0.35 0.18 0.32 0.20 0.17 0.22 0.18 
+2.27 1.52 1.20 1.02 1.36 2.17 2.36 2.92 2.61 2.26 2.23 1.63 0.20 0.17 0.19 0.38 0.28 0.00 0.38 0.43 0.42 0.45 0.25 0.22 0.21 
+2.85 1.47 1.10 1.20 1.58 1.80 2.45 9.34 2.31 1.64 1.44 1.50 0.29 0.19 0.23 0.26 0.35 0.38 0.00 0.29 0.49 0.28 0.24 0.17 0.17 
+2.53 1.36 1.03 0.85 0.99 1.43 1.37 2.03 2.66 2.57 1.81 1.33 0.21 0.14 0.15 0.20 0.18 0.43 0.29 0.00 0.35 1.07 0.40 0.18 0.20 
+3.28 2.17 1.60 1.41 1.73 2.45 2.65 2.97 7.62 3.31 2.45 2.29 0.37 0.22 0.24 0.27 0.32 0.42 0.49 0.35 0.00 0.41 0.38 0.24 0.25 
+2.60 1.58 1.20 0.92 1.07 1.65 1.50 1.92 3.44 4.03 2.45 1.56 0.22 0.15 0.16 0.22 0.20 0.45 0.28 1.07 0.41 0.00 0.47 0.21 0.25 
+3.61 1.76 1.26 0.98 1.02 1.43 1.25 1.50 2.99 3.28 1.87 1.58 0.29 0.16 0.15 0.17 0.17 0.25 0.24 0.40 0.38 0.47 0.00 0.20 0.26 
+2.15 3.21 3.32 1.31 1.44 2.92 1.52 1.05 1.46 1.70 2.65 3.66 0.17 0.22 0.20 0.26 0.22 0.22 0.17 0.18 0.24 0.21 0.20 0.00 0.55 
+2.47 3.40 2.82 1.17 1.19 2.04 1.30 1.05 1.68 2.20 2.92 2.95 0.19 0.20 0.17 0.20 0.18 0.21 0.17 0.20 0.25 0.25 0.26 0.55 0.00 
+**************************************************************************************

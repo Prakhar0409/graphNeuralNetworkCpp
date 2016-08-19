@@ -1,0 +1,13 @@
+
+populationSize 1024
+immigrationSize 10
+mutationRate 0.1
+mutationAmount 0.5
+keepbest 1
+
+output.binary 0
+output.bestonly 1
+
+
+#restart 1 #true
+#restartfile ...
