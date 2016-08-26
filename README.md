@@ -26,6 +26,8 @@ Feel free to fork the repo and send pull requests in order to improve it.
 
 ##License
 
-MIT License.  
+Apache License Version 2.0
+
+Copyright 2016 Prakhar Agrawal 
 
 Please see LICENSE file for more details
